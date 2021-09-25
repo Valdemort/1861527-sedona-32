@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Владимир](https://up.htmlacademy.ru/htmlcss/32/user/1861527).
-* Наставник: `Александр Кошара`.
+* Наставник: [Александр Кошара](https://htmlacademy.ru/profile/rednaxxxela).
 
 ---
 
