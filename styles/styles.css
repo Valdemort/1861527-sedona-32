@@ -36,6 +36,7 @@ body {
 .header-inner {
     background-image: url("/images/catalog-background\ 1.jpg");
     background-repeat: no-repeat;
+    background-size: 100% auto;
 }
 
 .breadscrumbs-link {
@@ -65,7 +66,7 @@ body {
 .promo {
     background-image: url("/images/index-background.jpg");
     background-repeat: no-repeat;
-    width: 100%;
+    background-size: 100% auto;
 }
 
 .promo-image {
@@ -168,6 +169,14 @@ body {
 .hotel-search-description {
     font-size: 22px;
     line-height: 26px;
+}
+
+.pagination-link {
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    background: #ffffff;
+    text-decoration: none; 
 }
 
 .mailing {
