@@ -8,21 +8,19 @@
   <body>
     <header class="page-header">
       <nav class="navigation">
-      <ul class"navigation-list">
-        <li class"navigation-item">
+      <ul class="navigation-list">
+        <li class="navigation-item">
           <a class="navigation-link" href="index.html">Главная</a>
         </li>
-        <li class"navigation-item">
+        <li class="navigation-item">
           <a class="navigation-link" href="about.html">О Седоне</a>
         </li>
-        <li class"navigation-item">
+        <li class="navigation-item">
           <a class="navigation-link" href="hotels.html">Гостиницы</a>
         </li>
       </ul>        
-      </nav>
       <img class="header-logo-img" src="images\sedona-logo.png" alt="логотип города Седона">
-      <nav class="navigation-user">
-       <ul class="navigation-list navigation-user">
+      <ul class="navigation-list navigation-user"">
         <li class="navigation-item">
           <a class="navigation-link" href="#">
             <span class="visually-hidden">Поиск</span>
@@ -39,7 +37,8 @@
       </ul>        
       </nav>
     </header>
-    <main class="main-index">
+    <main class="main-index main-container">
+      <div class="page-container">
       <h1 class="visually-hidden">Седона - городок, заслуживающий большего</h1>      
       <section class="promo">
           <img class="promo-image" src="images\promo-welcome.svg" alt="Добро пожаловать в Седону!">
@@ -48,13 +47,15 @@
         <h2 class="visually-hidden">Преимущества</h2>
         <h2 class="advantages-header">Седона - небольшой городок в Аризоне, заслуживающий большего!</h2>
         <p class="advantages-title-main">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон</p>
-        <img class="photo-item-1" src="images\advantage-item-1-photo.png" alt="Один из домиков в Седоне">
-         <ul class="advantages-list">
+        <ul class="advantages-list">
           <li class="advantages-item-town">
             <h3 class="advantages-title title-white">Настоящий городок</h3>
             <span class="advantages-description title-white">— №1 —</span>
             <span class="advantages-description title-white">Cедона — не аттракцион для туристов, там течёт 
               своя жизнь</span>
+            <li class="photo-item-1">
+              <img src="images\advantage-item-1-photo.png" alt="Один из домиков в Седоне">
+            </li>
             <ul class="advantages-list-other">
               <li class="advantages-other-hotel">
                 <h3 class="advantages-other-title">Жильё</h3>
@@ -77,6 +78,9 @@
             <span class="advantages-description title-white">— №2 —</span>
             <span class="advantages-description title-white">Да, по нему можно пройти! Если вы осмелитесь, разумеется</span>
           </li>
+          <li class="photo-item-2">
+            <img src="images\advantage-item-2-photo.jpg" alt="Мост дьявола">
+          </li>
           <li class="advantages-item-square">
             <h3 class="advantages-title">Небольшая площадь</h3>
             <span class="advantages-description">— №3 —</span>
@@ -93,7 +97,6 @@
             <span class="advantages-description">Большинство едет в Гранд Каньон и толпится там</span>
           </li>
         </ul>
-        <img class="photo-item-2" src="images\advantage-item-2-photo.jpg" alt="Мост дьявола">
       </section>
       <section class="hotel-search">
         <h2 class="hotel-search-title">Заинтересовались?</h2>
@@ -114,8 +117,10 @@
           <button class="button" type="submit">Подписаться</button>
         </form>
       </section>
+      </div>
     </main>
     <footer class="page-footer">
+      <div class="page-footer-container">
       <section class="footer-social">
         <h2 class="visually-hidden">Социальные сети</h2>
         <ul class="footer-social-list">
@@ -148,6 +153,7 @@
           <img class="footer-logo-img" src="images\logo_htmlacademy.svg" alt="логотип HTML Academy">
         </a>          
       </section>
+    </div>
     </footer>    
   </body>
 </html>
