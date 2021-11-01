@@ -146,6 +146,7 @@ body {
 }
 
 .advantages-item {
+    display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0;
@@ -158,14 +159,15 @@ body {
 .advantages-title {
     margin: 0;
     text-transform: uppercase;
+    padding-bottom: 25px;
 }
 
 .advantages-description-num {
-    
+    padding-bottom: 26px;
 }
 
 .advantages-description {
-
+    width: 220px;
 }
 
 .title-white {
@@ -183,18 +185,32 @@ body {
 .advantages-other-gift,
 .advantages-other-food {
     width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .advantages-other-hotel,
 .advantages-other-gift {
     background-color: rgba(131, 179, 211, 0.12);
-    width: 400px;
+}
+
+.advantages-other-title {
+    margin: 0;
+    padding-top: 184px;
+    text-transform: uppercase;
+}
+
+.advantages-other-desription {
+    width: 250px;
+    padding-top: 20px;
+    padding-bottom: 79px;
+    text-align: center;
 }
 
 .advantages-item-square,
 .advantages-item-tourist {
     background-color: rgba(131, 179, 211, 0.12);
-    width: 400px;
 }
 
 .advantages-item-road {
@@ -259,30 +275,38 @@ body {
 
 .sorting {
     display: flex;
-    justify-content: flex-start;
     margin: 0;
-    padding: 0;
+    padding-top: 42px;
+    padding-bottom: 42px;
 }
 
 .sorting-type {
-    width: 290px;
+    width: 257px;
 }
 
 .sorting-view {
-    width: 200px;
+    margin-left: auto;
 }
 
 .hotel-counter {
-    width: 600px;
+    margin: 0;
     font-size: 30px;
     line-height: 39px;
     text-transform: uppercase;
     font-weight: bold;
+    padding-right: 192px;
+    width: 600px;
+}
+
+.hotel-listing{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .hotel-list {
-    display: flex;
-    flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
 .hotel-card-title {
