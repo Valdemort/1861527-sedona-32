@@ -116,8 +116,6 @@ body {
 
 .breadcrumbs-link {
     color: #ffffff;
-    width: 73px;
-    height: 21px;
 }
 
 .main-index {
@@ -160,6 +158,10 @@ body {
     font-size: 30px;
     line-height: 36px;
     text-transform: uppercase;
+}
+
+.advantages-photo img {
+    display: block;
 }
 
 .advantages-title-main {
@@ -300,7 +302,7 @@ body {
 
 .header-inner {
     width: 1200px;
-    background-image: url("/images/catalog-background-1.png");
+    background-image: url("/images/catalog-background.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
 }
